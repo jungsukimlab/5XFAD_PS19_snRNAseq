@@ -1,0 +1,40 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Analysis inputs and generated outputs
+data/
+publication_output/
+
+# Large single-cell / sequencing files
+*.rds
+*.RDS
+*.h5
+*.h5ad
+*.h5seurat
+*.loom
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+
+# renv local library/cache
+renv/library/
+renv/staging/
+renv/python/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary/editor files
+*.tmp
+*.log
+*.bak
+*~
+
+# Temporarily exclude unfinished Step 11
+Step11_cross_species_alignment.R
