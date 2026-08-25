@@ -8,8 +8,6 @@
 #
 # Output:
 #   ./publication_output/Step2_integration/
-#
-# R and package versions are documented at the project level (renv.lock).
 
 library(Seurat)
 library(harmony)
