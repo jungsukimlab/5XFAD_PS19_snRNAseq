@@ -23,8 +23,6 @@
 #   OPC = oligodendrocyte precursor cell
 #   EC  = endothelial cell
 #   FB  = fibroblast
-#
-# R and package versions are documented at the project level (renv.lock).
 
 library(Seurat)
 library(SAHA)
