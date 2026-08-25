@@ -12,8 +12,6 @@
 # The SNN graph used here was constructed from Harmony embeddings in Step 2.
 # Multiple clustering resolutions are evaluated with clustree, and resolution
 # 0.6 is retained for downstream annotation.
-#
-# R and package versions are documented at the project level (renv.lock).
 
 library(Seurat)
 library(clustree)
