@@ -17,8 +17,6 @@
 #   2. Module eigengenes and module connectivity
 #   3. Enrichr analysis
 #   4. Differential module eigengene (DME) analysis
-#
-# R and package versions will be documented at the project level (renv.lock).
 
 library(Seurat)
 library(WGCNA)
