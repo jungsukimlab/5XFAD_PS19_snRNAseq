@@ -10,8 +10,6 @@
 #   2. Interaction analysis
 #   3. Communication pattern analysis
 #   4. Pathway-specific ligand-receptor analysis
-#
-# R and package versions will be documented at the project level (renv.lock).
 
 library(Seurat)
 library(CellChat)
