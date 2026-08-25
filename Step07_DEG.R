@@ -19,8 +19,6 @@
 #       5XFAD vs WT
 #       PS19 vs WT
 #       5XFAD;PS19 vs WT
-#
-# R and package versions will be documented at the project level (renv.lock).
 
 library(Seurat)
 library(MAST)
