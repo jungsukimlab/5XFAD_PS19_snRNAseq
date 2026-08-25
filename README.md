@@ -41,17 +41,6 @@ Additional datasets used for cross-species analyses are available through Synaps
 - AMP-AD human bulk RNA-seq data: **syn11932957**, **syn14237651**
 - Mouse-human orthologs for AMP-AD bulk RNA-seq analyses: **syn17010253**
 
-## R environment
-
-R and package versions used for the analysis are documented in the project-level `renv.lock` file.
-
-The package environment can be restored in R using:
-
-```r
-install.packages("renv")
-renv::restore()
-```
-
 ## Citation
 
 If you use this code or dataset, please cite:
