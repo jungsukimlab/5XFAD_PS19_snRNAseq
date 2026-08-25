@@ -31,10 +31,6 @@
 #      and generate UpSet plots.
 #
 #   3. Run Enrichr 
-#
-#   
-# R and package versions will be documented at the project level (renv.lock).
-
 
 library(Seurat)
 library(ComplexUpset)
