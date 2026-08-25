@@ -17,8 +17,6 @@
 #      (clust_cell: ExN_1, InN_1, O_1, M_1, etc.)
 #   2. Broad cell-type proportions by genotype
 #      (cell_type: ExN, InN, O, M, A, OPC, EC, FB)
-#
-# R and package versions will be documented at the project level (renv.lock).
 
 library(Seurat)
 library(speckle)
