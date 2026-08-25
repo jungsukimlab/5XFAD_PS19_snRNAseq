@@ -11,8 +11,6 @@
 #
 # Cluster markers identified here are used for cell-type annotation.
 # This is distinct from downstream genotype differential expression analysis.
-#
-# R and package versions are documented at the project level (renv.lock).
 
 library(Seurat)
 
