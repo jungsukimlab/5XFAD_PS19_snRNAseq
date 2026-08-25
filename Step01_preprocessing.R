@@ -4,8 +4,6 @@
 # Run from the project root directory.
 # Input:  Cell Ranger output directories in ./data/<sample_id>/
 # Output: Publication rerun outputs in ./publication_output/
-#
-# R and package versions are documented at the project level (renv.lock).
 
 library(Seurat)
 library(SoupX)
