@@ -127,8 +127,7 @@ for (i in seq_along(samples)) {
     doublet_umap_pdf,
     rds_file
   )
-  
-  invisible(lapply(output_files, check_output))
+
   
   # ---------------------------------------------------------------------------
   # SoupX ambient RNA correction
@@ -334,8 +333,6 @@ qc_summary_file <- file.path(
   qc_dir,
   paste0(analysis_tag, "_Step1.1_QC_summary.csv")
 )
-
-check_output(qc_summary_file)
 
 write.csv(
   qc_summary,
