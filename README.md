@@ -39,10 +39,10 @@ The snRNA-seq data generated in this study are available through the Gene Expres
 
 Additional datasets used for cross-species analyses are available through Synapse:
 
-- AD biodomain definitions and labels: **syn25428992**, **syn26856828**
 - AMP-AD consensus co-expression modules: **syn11932957** 
 - AMP-AD human RNA-seq differential expression data: **syn14237651**
-- Mouse–human ortholog mappings: **syn17010253**
+- Mouse-human ortholog mappings: **syn17010253**
+- AD biodomain definitions and labels: **syn25428992**, **syn26856828**
 
 ## Citation
 
