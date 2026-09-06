@@ -12,7 +12,7 @@ https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.71742
 
 We performed sex-balanced single-nucleus RNA sequencing (snRNA-seq) of cortical tissue from four mouse genotypes: wild-type (WT), 5XFAD, PS19, and combined 5XFAD;PS19 mice.
 
-The analysis evaluates cell type-specific transcriptional changes associated with amyloid beta (Aβ) pathology, tau pathology, and combined Aβ-tau pathology. Downstream analyses include differential gene expression, cell composition, gene co-expression network analysis, cell–cell communication analysis, and cross-species comparison with human Alzheimer's disease transcriptomic datasets.
+The analysis evaluates cell type-specific transcriptional changes associated with amyloid beta (Aβ) pathology, tau pathology, and combined Aβ-tau pathology. Downstream analyses include cell composition, gene co-expression network analysis, differential gene expression, cell–cell communication analysis, and cross-species alignment with human Alzheimer's disease datasets from AMP-AD.
 
 ## Analysis workflow
 
@@ -30,6 +30,8 @@ The scripts are organized in the order of the analysis workflow.
 | `Step08_DEG_downstream.R`   | Downstream analysis of differentially expressed genes, including enrichment analysis                   |
 | `Step09_hdWGCNA.R`          | High-dimensional weighted gene co-expression network analysis (hdWGCNA) |
 | `Step10_CellChat.R`         | Cell–cell communication analysis using CellChat                         |
+| `Step11_DEG_pseudobulk.R` | Pseudobulk differential expression analysis across genotypes |
+| `Step12_cross_species.R` | Cross-species transcriptomic alignment with AMP-AD human AD datasets |
 
 ## Data
 
@@ -38,8 +40,9 @@ The snRNA-seq data generated in this study are available through the Gene Expres
 Additional datasets used for cross-species analyses are available through Synapse:
 
 - AD biodomain definitions and labels: **syn25428992**, **syn26856828**
-- AMP-AD human bulk RNA-seq data: **syn11932957**, **syn14237651**
-- Mouse-human orthologs for AMP-AD bulk RNA-seq analyses: **syn17010253**
+- AMP-AD consensus co-expression modules: **syn11932957** 
+- AMP-AD human RNA-seq differential expression data: **syn14237651**
+- Mouse–human ortholog mappings: **syn17010253**
 
 ## Citation
 
