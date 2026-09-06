@@ -619,6 +619,17 @@ dev.off()
 
 Idents(obj) <- "cell_type"
 
+cell_type_order <- c(
+  "ExN",
+  "InN",
+  "O",
+  "M",
+  "A",
+  "OPC",
+  "EC",
+  "FB"
+)
+
 pdf(
   cell_type_vln_file,
   width = 8,
