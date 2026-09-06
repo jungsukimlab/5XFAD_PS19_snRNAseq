@@ -95,7 +95,6 @@ check_output <- function(file) {
 
 output_files <- c(
   results_file,
-  results_rds_file,
   cluster_summary_file,
   cell_type_summary_file,
   cluster_plot_file,
